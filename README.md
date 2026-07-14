@@ -105,10 +105,6 @@ The generator is seeded, so the sample is deterministic.
 
 ## Screenshots
 
-<!-- screenshot: upload / landing page -->
+![Pipeline step dark](docs/screenshots/pipeline-step-dark.png)
 
-<!-- screenshot: profile panel -->
-
-<!-- screenshot: cleaning steps + pipeline -->
-
-<!-- screenshot: before/after preview -->
+![Profile workspace dark](docs/screenshots/profile-workspace-dark.png)

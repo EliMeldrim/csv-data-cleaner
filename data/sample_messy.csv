@@ -1,0 +1,201 @@
+Order ID,Customer Name,EMAIL Address,signup-date,Plan Type,Monthly Spend ($),AGE,Country/Region,satisfactionScore
+ORD-1026,Olga Nakamura,olga.nakamura71@example.com,2022-12-28,Basic,69.34,67,Brazil,8
+ORD-1121,Liam Jensen,,"Aug 4, 2024",basic ,192.79,31,   Germany  ,7
+ORD-1163, Noah Patel  ,noah.patel8@example.com,2022-12-09,Pro,225.35,62,   France,8
+ORD-1064,Kira Nakamura,kira.nakamura41@example.com,"Mar 22, 2023",Enterprise,,23,India,6
+ORD-1016,Rosa Jensen,rosa.jensen85@example.com,"May 4, 2022",Enterprise,47.31,31,Nigeria,4
+ORD-1126,Carmen Baker,carmen.baker12@example.com,2024-09-16,Basic,N/A,49,USA,6
+ORD-1043,Farid Patel,farid.patel67@example.com,2023-03-19,basic ,242.57,44,Nigeria,2
+ORD-1084,Kira Evans,kira.evans6@example.com,"Nov 6, 2023",Basic,245.40,29,Brazil,2
+ORD-1096,Kira Lopez,kira.lopez52@example.com,2023-09-18,PRO,39.41,27,Japan,5
+ORD-1124,Liam Baker,,2024-11-16,basic ,108.72,220,France,5
+ORD-1040,Carmen Fischer,carmen.fischer31@example.com,2021-03-01,basic ,122.78,,Japan,5
+ORD-1014,Sven Baker,sven.baker80@example.com,05/07/2023,Basic,73.75,59,Nigeria,6
+ORD-1179,Jamal Huang,jamal.huang13@example.com,,basic ,211.57,41, Nigeria,
+ORD-1061,Elena Nakamura,elena.nakamura68@example.com,08/15/2021,Enterprise,36.17,57,Brazil,
+ORD-1125,Farid Diaz,farid.diaz13@example.com,04/20/2022,Pro,74.16,41,Brazil,8
+ORD-1091,Farid Lopez,farid.lopez66@example.com,03/08/2022,Basic,N/A,41,Brazil,9
+ORD-1075,Jamal Muller,jamal.muller53@example.com,2021-11-21,Enterprise,143.91,34,Germany,10
+ORD-1071,Quinn Chen,quinn.chen51@example.com,04/11/2023,basic ,,51,Germany,6
+ORD-1086,Olga Muller,olga.muller44@example.com,2024-12-16,Enterprise,74.01,unknown,Brazil,7
+ORD-1000,Dmitri Anderson,dmitri.anderson95@example.com,2022-03-24,Basic,140.89,20,Japan,
+ORD-1009, Olga Diaz ,olga.diaz32@example.com,01/19/2023,basic ,11.73,21,Nigeria,1
+ORD-1164,  Noah Evans ,noah.evans31@example.com,"Jul 23, 2023",pro,118.66,30,  France,10
+ORD-1101,Liam Khan,liam.khan87@example.com,10/10/2024,Enterprise,175.13,999,   Nigeria  ,10
+ORD-1005,Noah Muller,noah.muller47@example.com,2022-09-16,Enterprise,N/A,58,Nigeria,7
+ORD-1078,  Elena Fischer,elena.fischer24@example.com,2022-12-15,pro,182.70,57,Nigeria,8
+ORD-1055,Elena Chen,elena.chen38@example.com,2024-03-07,pro,243.16,35,India,5
+ORD-1094,   Farid Evans ,farid.evans22@example.com,"Oct 2, 2023",Enterprise,N/A,,USA,10
+ORD-1102,Tara Muller,tara.muller19@example.com,"Jan 19, 2022",PRO,$14.54,27,USA,4
+ORD-1139,   Hiro Fischer ,hiro.fischer71@example.com,08/08/2024,PRO,54.73,43,USA,
+ORD-1172,Alice Lopez,alice.lopez73@example.com,2022-08-18,Enterprise,31.66,32,Japan,
+ORD-1092, Pedro Nakamura ,pedro.nakamura99@example.com,03/11/2021,Enterprise,173.23,74,USA,9
+ORD-1069,Elena Ivanov,elena.ivanov38@example.com,2021-08-24,Basic,$137.82,53, France ,6
+ORD-1131,Noah Okafor,noah.okafor72@example.com,2024-02-01,basic ,153.26,73,Japan,5
+ORD-1031, Elena Huang ,elena.huang17@example.com,2021-10-07,Enterprise,98.53,65,France,3
+ORD-1167,Carmen Ivanov,carmen.ivanov10@example.com,pending,pro,,46,  Canada,2
+ORD-1048,Kira Garcia,kira.garcia90@example.com,04/28/2024,basic ,N/A,63,Germany,7
+ORD-1074,Sven Garcia,sven.garcia42@example.com,2022-01-15,PRO,92.43,50,Germany,1
+ORD-1065,   Noah Lopez ,noah.lopez86@example.com,"Dec 2, 2024",Basic,94.40,31,Brazil,8
+ORD-1059,  Liam Diaz,liam.diaz88@example.com,2023-01-13,Pro,237.76,23,   Japan,10
+ORD-1090,Jamal Patel,jamal.patel26@example.com,"Aug 6, 2021",pro,31.07,72,Brazil,6
+ORD-1046,Dmitri Evans,dmitri.evans64@example.com,2023-09-23,Pro,245.26,53,Canada,4
+ORD-1116,Dmitri Baker,dmitri.baker58@example.com,2021-04-24,basic ,139.54,67,India,
+ORD-1139,   Hiro Fischer ,hiro.fischer71@example.com,08/08/2024,PRO,54.73,43,USA,
+ORD-1095,Rosa Jensen,rosa.jensen83@example.com,"Apr 26, 2024",Pro,118.85,28,India,8
+ORD-1023,Jamal Muller,jamal.muller71@example.com,2023-05-07,basic ,167.13,46,Germany,9
+ORD-1023,Jamal Muller,jamal.muller71@example.com,2023-05-07,basic ,167.13,46,Germany,9
+ORD-1080,Olga Evans,olga.evans56@example.com,"Aug 12, 2022",Basic,105.15,42,India,6
+ORD-1123,Elena Patel,elena.patel24@example.com,"Sep 2, 2021",Basic,,21,   Germany ,7
+ORD-1176,Farid Chen,farid.chen91@example.com,2023-08-01,Pro,26.27,24,France,1
+ORD-1134,Farid Muller,farid.muller41@example.com,2024-10-26,basic ,205.96,25,USA,4
+ORD-1097,   Farid Khan ,farid.khan74@example.com,"Mar 16, 2022",Basic,220.98,23,USA,9
+ORD-1143,Pedro Evans,pedro.evans25@example.com,2024-07-22,pro,116.52,54,Japan,
+ORD-1109,Noah Khan,noah.khan12@example.com,2021-03-05,Basic,11.64,46,Brazil,6
+ORD-1001,Rosa Nakamura,rosa.nakamura29@example.com,"Jan 25, 2023",pro,91.66,66,Brazil,2
+ORD-1120,Kira Jensen,kira.jensen2@example.com,12/04/2022,PRO,229.47,63,Nigeria,4
+ORD-1113,  Jamal Anderson,jamal.anderson51@example.com,12/07/2021,pro,N/A,22, France  ,1
+ORD-1153,Carmen Diaz,carmen.diaz18@example.com,2024-06-14,basic ,$76.47,unknown,USA,10
+ORD-1115,Rosa Nakamura,rosa.nakamura69@example.com,2022-04-15,Basic,234.98,25,Japan,
+ORD-1063,  Tara Jensen ,tara.jensen59@example.com,02/26/2024,PRO,166.22,64,France,7
+ORD-1127,Sven Patel,sven.patel35@example.com,,Basic,,75,Japan,1
+ORD-1151,Carmen Diaz,carmen.diaz1@example.com,2021-03-19,Pro,12.23,70, France,7
+ORD-1045,  Grace Ivanov,grace.ivanov71@example.com,2023-08-23,Pro,N/A,69,Canada,3
+ORD-1019,Hiro Fischer,hiro.fischer23@example.com,"Mar 24, 2021",PRO,108.81,65,USA,5
+ORD-1164,  Noah Evans ,noah.evans31@example.com,"Jul 23, 2023",pro,118.66,30,  France,10
+ORD-1148,Ines Lopez,ines.lopez59@example.com,"Oct 1, 2023",PRO,32.35,58,Japan,6
+ORD-1007,   Quinn Garcia,quinn.garcia20@example.com,"Sep 25, 2022",Basic,153.75,25,Nigeria,5
+ORD-1093,Quinn Evans,quinn.evans39@example.com,2023-12-08,Enterprise,224.78,34,Canada,9
+ORD-1169,Rosa Patel,rosa.patel8@example.com,2024-03-14,pro,136.20,69,Nigeria,1
+ORD-1082,  Jamal Diaz,jamal.diaz7@example.com,"Feb 4, 2024",Enterprise,138.65,54,   France,3
+ORD-1156,Quinn Nakamura,quinn.nakamura55@example.com,11/18/2021,basic ,$30.06,,Canada,3
+ORD-1027,Kira Khan,kira.khan70@example.com,04/13/2022,Enterprise,25.41,52,USA,1
+ORD-1168,Farid Nakamura,farid.nakamura93@example.com,2021-07-22,basic ,227.99,46,Brazil,1
+ORD-1029,Pedro Anderson,pedro.anderson50@example.com,"Dec 6, 2024",PRO,245.37,43,  Germany ,1
+ORD-1094,   Farid Evans ,farid.evans22@example.com,"Oct 2, 2023",Enterprise,N/A,,USA,10
+ORD-1053,Noah Ivanov,noah.ivanov59@example.com,2022-07-28,basic ,147.26,62,USA,7
+ORD-1089,Carmen Evans,carmen.evans68@example.com,2023-11-09,PRO,$186.56,42,Japan,2
+ORD-1041,Sven Garcia,sven.garcia55@example.com,"Nov 5, 2022",PRO,27.14,37,Brazil,10
+ORD-1056,  Olga Chen  ,olga.chen19@example.com,11/24/2022,basic ,212.98,23,Brazil,1
+ORD-1085,Grace Baker,grace.baker41@example.com,2024-09-16,pro,55.86,67,France,
+ORD-1142,  Quinn Muller  ,quinn.muller54@example.com,2024-07-06,Basic,230.60,29,India,8
+ORD-1029,Pedro Anderson,pedro.anderson50@example.com,"Dec 6, 2024",PRO,245.37,43,  Germany ,1
+ORD-1122,Sven Nakamura,sven.nakamura38@example.com,04/13/2023,PRO,142.15,39,  Nigeria,8
+ORD-1110, Hiro Baker ,hiro.baker86@example.com,03/13/2023,Pro,223.07,62,Nigeria,5
+ORD-1104,Jamal Jensen,jamal.jensen91@example.com,2024-06-16,pro,200.90,25,Germany,9
+ORD-1039,Dmitri Nakamura,dmitri.nakamura78@example.com,2022-09-13,Pro,216.44,37,Japan,1
+ORD-1129,Carmen Khan,carmen.khan78@example.com,06/01/2024,PRO,118.13,53,Canada,7
+ORD-1043,Farid Patel,farid.patel67@example.com,2023-03-19,basic ,242.57,44,Nigeria,2
+ORD-1002,  Olga Diaz,,,Pro,160.87,41,Canada,2
+ORD-1094,   Farid Evans ,farid.evans22@example.com,"Oct 2, 2023",Enterprise,N/A,,USA,10
+ORD-1034,Hiro Chen,hiro.chen36@example.com,08/19/2022,Enterprise,16.89,29,Brazil,6
+ORD-1161,Mona Chen,mona.chen60@example.com,06/03/2023,PRO,N/A,54,Japan,10
+ORD-1006,Rosa Anderson,rosa.anderson88@example.com,2023-11-11,Basic,118.89,74,Brazil,9
+ORD-1157, Noah Huang,,02/15/2024,PRO,N/A,60,India,2
+ORD-1098,Tara Patel,tara.patel37@example.com,"Jul 5, 2021",pro,193.33,43,Canada,
+ORD-1154,Jamal Garcia,jamal.garcia67@example.com,2022-12-13,Basic,N/A,33,USA,2
+ORD-1050,   Ines Khan  ,,06/28/2021,pro,238.99,74,Japan,9
+ORD-1130,  Jamal Huang ,jamal.huang92@example.com,,pro,101.20,27, Brazil,6
+ORD-1103, Quinn Garcia ,quinn.garcia72@example.com,2024-09-13,Enterprise,9471.83,40,Brazil,5
+ORD-1074,Sven Garcia,sven.garcia42@example.com,2022-01-15,PRO,92.43,50,Germany,1
+ORD-1087,Carmen Khan,carmen.khan85@example.com,2024-10-23,basic ,94.37,,   USA ,6
+ORD-1149,Grace Patel,grace.patel35@example.com,06/18/2023,PRO,126.48,61, USA ,1
+ORD-1079,Jamal Muller,jamal.muller65@example.com,04/26/2022,Basic,22.52,41, Brazil ,2
+ORD-1018,Sven Evans,sven.evans56@example.com,"Jun 26, 2023",PRO,N/A,61,Germany,2
+ORD-1160,  Mona Evans,mona.evans23@example.com,"Sep 26, 2021",Enterprise,110.65,44,   USA,6
+ORD-1035,Quinn Garcia,quinn.garcia11@example.com,08/18/2024,Pro,165.02,68,Brazil,
+ORD-1177,  Mona Lopez,mona.lopez70@example.com,10/21/2024,PRO,118.31,20,Germany,6
+ORD-1004,   Bob Huang  ,bob.huang5@example.com,2024-05-03,Enterprise,220.33,59,Brazil,8
+ORD-1169,Rosa Patel,rosa.patel8@example.com,2024-03-14,pro,136.20,69,Nigeria,1
+ORD-1077,Grace Khan,,2022-03-05,Enterprise,34.27,71,Germany,9
+ORD-1073,Olga Jensen,olga.jensen36@example.com,2023-09-03,PRO,23.65,22,USA,2
+ORD-1062,Alice Baker,alice.baker62@example.com,2024-11-04,Enterprise,27.64,unknown,India,2
+ORD-1163, Noah Patel  ,noah.patel8@example.com,2022-12-09,Pro,225.35,62,   France,8
+ORD-1152,  Kira Lopez  ,kira.lopez39@example.com,2022-11-22,basic ,12.03,46,Nigeria,4
+ORD-1033,Dmitri Nakamura,dmitri.nakamura47@example.com,2024-12-05,Enterprise,241.71,69,Brazil,8
+ORD-1052,Mona Huang,mona.huang64@example.com,04/15/2022,pro,170.04,47,Brazil,9
+ORD-1135,Olga Garcia,olga.garcia57@example.com,2021-07-22,PRO,68.09,63,France,7
+ORD-1155, Kira Evans ,kira.evans50@example.com,06/18/2024,Enterprise,239.07,19,Brazil,1
+ORD-1099,Olga Ivanov,olga.ivanov80@example.com,2021-03-04,Basic,91.38,66,  USA ,10
+ORD-1067,Grace Muller,grace.muller54@example.com,06/10/2022,basic ,146.22,unknown,Canada,
+ORD-1147,Elena Evans,elena.evans32@example.com,"Apr 25, 2023",Basic,44.12,58,France,8
+ORD-1036,Liam Patel,liam.patel71@example.com,2024-12-18,basic ,75.02,25,   Germany ,6
+ORD-1100,Quinn Okafor,quinn.okafor20@example.com,2022-06-20,pro,157.96,55,Nigeria,9
+ORD-1012,Hiro Fischer,hiro.fischer53@example.com,2022-07-02,Enterprise,N/A,68,  Nigeria,5
+ORD-1140,Grace Ivanov,grace.ivanov97@example.com,10/04/2021,Enterprise,97.79,25,France,8
+ORD-1072,Elena Ivanov,elena.ivanov26@example.com,2022-11-03,pro,128.59,66, India ,10
+ORD-1013,Bob Baker,bob.baker96@example.com,10/16/2021,Pro,47.78,23,   France,2
+ORD-1118,Kira Nakamura,kira.nakamura53@example.com,03/25/2024,Enterprise,64.08,27,Germany,1
+ORD-1025,Mona Patel,mona.patel52@example.com,2021-02-25,basic ,9746.84,21,India,2
+ORD-1145, Jamal Baker,jamal.baker58@example.com,"Aug 28, 2021",Pro,66.87,55,USA,10
+ORD-1120,Kira Jensen,kira.jensen2@example.com,12/04/2022,PRO,229.47,63,Nigeria,4
+ORD-1106,  Bob Diaz ,bob.diaz53@example.com,02/22/2024,pro,N/A,28,USA,8
+ORD-1028,Sven Muller,sven.muller62@example.com,pending,PRO,190.83,71,Japan,9
+ORD-1173,Kira Fischer,kira.fischer42@example.com,,basic ,$179.13,25,France,6
+ORD-1136,Noah Baker,noah.baker47@example.com,2021-02-25,PRO,49.92,54,  Canada,7
+ORD-1003,Olga Lopez,olga.lopez21@example.com,11/09/2022,basic ,27.14,52,Japan,3
+ORD-1117,  Kira Huang  ,kira.huang39@example.com,2022-07-10,basic ,152.00,29,France,7
+ORD-1174,   Kira Jensen,kira.jensen42@example.com,12/14/2022,PRO,165.80,53,Brazil,10
+ORD-1070,Sven Nakamura,sven.nakamura74@example.com,2024-05-04,Pro,51.25,47,France,6
+ORD-1083,Quinn Lopez,quinn.lopez9@example.com,2021-07-28,basic ,245.45,19,Canada,2
+ORD-1165,Olga Jensen,olga.jensen60@example.com,"Feb 6, 2021",pro,179.13,31,France,6
+ORD-1175,Jamal Evans,jamal.evans23@example.com,2024-10-02,Pro,204.11,58,India,8
+ORD-1022,Carmen Khan,carmen.khan80@example.com,12/10/2021,basic ,88.28,53,Germany,7
+ORD-1017,   Bob Chen,bob.chen82@example.com,2023-01-01,Enterprise,$245.15,46,USA,7
+ORD-1081,   Elena Baker  ,elena.baker37@example.com,2024-12-27,Enterprise,117.66,-3,  France,
+ORD-1066,   Noah Anderson  ,noah.anderson78@example.com,2023-01-06,Basic,231.17,29,Canada,10
+ORD-1159,Liam Baker,,2022-06-06,Pro,$147.74,32,USA,1
+ORD-1051,Noah Diaz,noah.diaz98@example.com,08/06/2021,Enterprise,21.04,36, Germany  ,7
+ORD-1111,Tara Lopez,tara.lopez54@example.com,09/26/2024,Basic,69.39,73,   Canada  ,9
+ORD-1166, Jamal Ivanov,jamal.ivanov23@example.com,pending,Pro,118.53,33,  Germany ,2
+ORD-1108,  Dmitri Khan ,dmitri.khan37@example.com,03/28/2024,Enterprise,204.12,64,   Japan ,5
+ORD-1010,Elena Patel,elena.patel32@example.com,2024-04-04,Basic,111.66,64,France,
+ORD-1032,Grace Chen,grace.chen76@example.com,02/23/2022,Basic,154.10,54,  India ,6
+ORD-1049,Bob Evans,bob.evans65@example.com,"Feb 28, 2023",Basic,,18,Nigeria,7
+ORD-1054,Pedro Jensen,pedro.jensen30@example.com,2023-04-21,pro,191.34,61,  Nigeria  ,2
+ORD-1042,Ines Patel,ines.patel57@example.com,2021-07-24,basic ,31.92,71,Brazil,10
+ORD-1044,  Mona Baker  ,mona.baker59@example.com,"Jun 4, 2023",PRO,133.50,60,Nigeria,8
+ORD-1097,   Farid Khan ,farid.khan74@example.com,"Mar 16, 2022",Basic,220.98,23,USA,9
+ORD-1030,   Grace Okafor,grace.okafor42@example.com,"May 25, 2024",Basic,210.38,65, Japan  ,6
+ORD-1037,Ines Jensen,ines.jensen13@example.com,2023-04-12,Pro,N/A,35, Nigeria  ,
+ORD-1158,Ines Fischer,ines.fischer48@example.com,12/04/2023,Basic,N/A,35,Nigeria,5
+ORD-1162,   Rosa Huang ,rosa.huang20@example.com,pending,basic ,65.92,71,   Brazil,1
+ORD-1132,Farid Muller,farid.muller22@example.com,2023-05-16,PRO,5655.50,68,Japan,5
+ORD-1078,  Elena Fischer,elena.fischer24@example.com,2022-12-15,pro,182.70,57,Nigeria,8
+ORD-1128,Mona Chen,mona.chen39@example.com,"Oct 27, 2022",Basic,139.73,65,Canada,2
+ORD-1008,Rosa Evans,rosa.evans17@example.com,"May 17, 2022",pro,60.83,64,Nigeria,5
+ORD-1101,Liam Khan,liam.khan87@example.com,10/10/2024,Enterprise,175.13,999,   Nigeria  ,10
+ORD-1020,Hiro Garcia,hiro.garcia59@example.com,04/01/2022,Enterprise,76.86,,India,6
+ORD-1076,Jamal Muller,jamal.muller17@example.com,2021-05-18,Enterprise,205.16,71,  India,9
+ORD-1020,Hiro Garcia,hiro.garcia59@example.com,04/01/2022,Enterprise,76.86,,India,6
+ORD-1060,Sven Garcia,sven.garcia30@example.com,2022-10-01,Pro,247.01,69,  India,1
+ORD-1146,Rosa Ivanov,rosa.ivanov77@example.com,2023-12-10,Basic,215.92,61,Brazil,3
+ORD-1121,Liam Jensen,,"Aug 4, 2024",basic ,192.79,31,   Germany  ,7
+ORD-1137,Quinn Huang,quinn.huang58@example.com,11/19/2024,Pro,$249.45,36,India,2
+ORD-1107,Carmen Huang,carmen.huang69@example.com,"Mar 14, 2021",pro,9516.89,43,   USA  ,3
+ORD-1133,Elena Jensen,elena.jensen1@example.com,"Oct 13, 2023",basic ,90.34,73,Japan,10
+ORD-1099,Olga Ivanov,olga.ivanov80@example.com,2021-03-04,Basic,91.38,66,  USA ,10
+ORD-1125,Farid Diaz,farid.diaz13@example.com,04/20/2022,Pro,74.16,41,Brazil,8
+ORD-1141,Sven Diaz,sven.diaz45@example.com,"Oct 6, 2024",Pro,81.39,23,India,6
+ORD-1058,Elena Muller,,10/24/2024,PRO,167.18,57,Nigeria,5
+ORD-1150,Olga Anderson,olga.anderson55@example.com,2022-11-10,basic ,75.76,34,Japan,3
+ORD-1105, Jamal Chen  ,jamal.chen45@example.com,2023-12-16,Enterprise,75.07,35,Japan,10
+ORD-1138,Olga Garcia,olga.garcia67@example.com,02/15/2024,basic ,26.12,,Germany,1
+ORD-1088,Liam Fischer,liam.fischer4@example.com,2024-01-05,pro,97.92,54,India,
+ORD-1171,Dmitri Huang,dmitri.huang85@example.com,"Apr 19, 2021",basic ,95.15,72,India,4
+ORD-1021,  Dmitri Ivanov,dmitri.ivanov23@example.com,01/04/2023,Enterprise,198.74,50,Japan,10
+ORD-1024,Jamal Khan,jamal.khan12@example.com,2022-11-10,Enterprise,15.86,48,Japan,2
+ORD-1170,Pedro Lopez,pedro.lopez73@example.com,2024-05-06,Enterprise,17.03,35,Japan,
+ORD-1178,Rosa Chen,rosa.chen44@example.com,2024-12-01,Enterprise,155.76,21,Brazil,4
+ORD-1038,Jamal Patel,jamal.patel62@example.com,"Jan 9, 2022",pro,207.31,22,Canada,1
+ORD-1015,Sven Diaz,sven.diaz10@example.com,"Mar 12, 2023",basic ,98.69,71,USA,5
+ORD-1144,Farid Okafor,farid.okafor73@example.com,2024-09-17,Pro,$196.03,41,   France,1
+ORD-1068,Noah Patel,,04/25/2023,Enterprise,36.61,55,  USA,5
+ORD-1057, Liam Diaz,liam.diaz87@example.com,2021-10-18,pro,165.44,47, Nigeria  ,5
+ORD-1047,Noah Khan,noah.khan65@example.com,2021-05-24,Enterprise,249.74,27,France,8
+ORD-1119,Ines Garcia,ines.garcia43@example.com,06/03/2024,basic ,22.37,56,Japan,2
+ORD-1112,Grace Evans,grace.evans22@example.com,2024-02-22,Enterprise,31.83,69,USA,
+ORD-1067,Grace Muller,grace.muller54@example.com,06/10/2022,basic ,146.22,unknown,Canada,
+ORD-1011,Dmitri Huang,dmitri.huang25@example.com,2024-03-14,Enterprise,219.88,,USA,9
+ORD-1114, Noah Lopez,noah.lopez49@example.com,07/03/2024,Basic,139.43,40,Brazil,9
+ORD-1047,Noah Khan,noah.khan65@example.com,2021-05-24,Enterprise,249.74,27,France,8

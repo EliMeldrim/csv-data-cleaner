@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSV Data Cleaning Pipeline</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">▦</span>
+      <div>
+        <h1>CSV Data Cleaning Pipeline</h1>
+        <p class="tagline">Upload &rarr; profile &rarr; clean &rarr; download</p>
+      </div>
+    </div>
+    <div class="file-badge" id="file-badge" hidden></div>
+  </header>
+
+  <main>
+    <!-- Upload hero (shown until a dataset is loaded) -->
+    <section id="upload-panel" class="card upload-hero">
+      <div id="dropzone" class="dropzone" tabindex="0">
+        <p class="drop-title">Drop a CSV or TSV here</p>
+        <p class="drop-sub">or</p>
+        <div class="drop-actions">
+          <label class="btn btn-primary" for="file-input">Choose file</label>
+          <input type="file" id="file-input" accept=".csv,.tsv,.tab,text/csv" hidden />
+          <button class="btn btn-ghost" id="load-sample">Load sample messy CSV</button>
+        </div>
+        <p class="drop-hint">Tolerant parsing: encoding sniffing, delimiter detection, bad lines skipped.</p>
+      </div>
+    </section>
+
+    <!-- Workspace (hidden until a dataset is loaded) -->
+    <div id="workspace" hidden>
+      <section class="card">
+        <div class="card-head">
+          <h2>Profile</h2>
+          <div class="stat-chips" id="stat-chips"></div>
+        </div>
+        <div id="warnings" class="warnings" hidden></div>
+        <div class="table-wrap">
+          <table class="profile-table" id="profile-table"></table>
+        </div>
+      </section>
+
+      <div class="columns-2">
+        <section class="card">
+          <div class="card-head"><h2>Cleaning steps</h2></div>
+
+          <div class="op-group">
+            <h3>Whole table</h3>
+            <div class="btn-row">
+              <button class="btn" data-quick-op="drop_duplicates">Drop duplicate rows</button>
+              <button class="btn" data-quick-op="trim_whitespace">Trim whitespace</button>
+              <button class="btn" data-quick-op="normalize_column_names">snake_case columns</button>
+            </div>
+          </div>
+
+          <div class="op-group">
+            <h3>Coerce type</h3>
+            <div class="op-form">
+              <select id="coerce-col" class="input"></select>
+              <select id="coerce-target" class="input">
+                <option value="numeric">to numeric</option>
+                <option value="datetime">to datetime</option>
+                <option value="string">to string</option>
+              </select>
+              <button class="btn btn-accent" id="apply-coerce">Apply</button>
+            </div>
+          </div>
+
+          <div class="op-group">
+            <h3>Handle nulls</h3>
+            <div class="op-form">
+              <select id="null-col" class="input"></select>
+              <select id="null-strategy" class="input">
+                <option value="drop">drop rows</option>
+                <option value="value">fill with value&hellip;</option>
+                <option value="mean">fill with mean</option>
+                <option value="median">fill with median</option>
+                <option value="mode">fill with mode</option>
+              </select>
+              <input type="text" id="null-fill-value" class="input" placeholder="fill value" hidden />
+              <button class="btn btn-accent" id="apply-nulls">Apply</button>
+            </div>
+          </div>
+
+          <div class="op-group">
+            <h3>Outliers (IQR fence)</h3>
+            <div class="op-form">
+              <select id="outlier-col" class="input"></select>
+              <select id="outlier-method" class="input">
+                <option value="flag">flag in new column</option>
+                <option value="clip">clip to fence</option>
+              </select>
+              <button class="btn btn-accent" id="apply-outliers">Apply</button>
+            </div>
+            <p class="op-hint">Numeric columns only — coerce first if needed.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-head">
+            <h2>Pipeline</h2>
+            <div class="btn-row">
+              <button class="btn btn-ghost btn-sm" id="reset-pipeline">Reset to original</button>
+            </div>
+          </div>
+          <ol class="pipeline" id="pipeline-list">
+            <li class="pipeline-empty">No steps applied yet.</li>
+          </ol>
+          <div class="btn-row download-row">
+            <a class="btn btn-primary" id="download-csv" href="#" download>Download cleaned CSV</a>
+            <a class="btn" id="download-pipeline" href="#" download>Pipeline JSON</a>
+          </div>
+        </section>
+      </div>
+
+      <section class="card">
+        <div class="card-head">
+          <h2>Preview <span class="muted" id="preview-count"></span></h2>
+          <div class="segmented" role="group" aria-label="Preview source">
+            <button class="seg-btn" data-source="original">Before</button>
+            <button class="seg-btn active" data-source="current">After</button>
+          </div>
+        </div>
+        <div class="table-wrap preview-wrap">
+          <table class="preview-table" id="preview-table"></table>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <footer class="footer">
+    FastAPI + pandas backend &middot; vanilla JS frontend &middot; sessions are in-memory (single process)
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
